@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue'
-import StudentForm from './StudentForm.vue'
-import StudentDisplay from './StudentDisplay.vue'
+import StudentForm from './components/StudentForm.vue'
+import StudentDisplay from './components/StudentDisplay.vue'
 
 const student = ref(null)
 
